@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from './components/Header';
+import { Container } from 'react-bootstrap';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Header />
+      <Container>
+        <div>Welcome Happy Shoppıng</div>
+      </Container>
+    </>
+
   )
 }
 
