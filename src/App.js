@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 /** Pages */
-import HomePage from './pages/homepage';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
