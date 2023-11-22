@@ -5,12 +5,15 @@ import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+/** Pages */
+import HomePage from './pages/homepage';
+
 const App = () => {
   return (
     <>
       <Header />
       <Container className='mainContainer'>
-        <div>Welcome Happy Shoppıng</div>
+        <HomePage />
       </Container>
       <Footer />
     </>
