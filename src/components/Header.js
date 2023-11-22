@@ -1,11 +1,11 @@
 import React from 'react'
-import { Navbar, Nav, Container, NavbarToggle, NavbarCollapse, NavLink } from 'react-bootstrap'
+import { Navbar, Nav, Container, NavbarToggle, NavbarCollapse } from 'react-bootstrap'
 import { FaShoppingCart, FaUser } from 'react-icons/fa'
 
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='medium' collapseOnSelect>
+      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
           <Navbar.Brand href='/'>
             Happy Shopping
